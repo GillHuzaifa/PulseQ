@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PulseQ - Skip the Line. AI-powered wait time prediction, OPD management, Pakistan.">
+  <meta name="theme-color" content="#1e5bb5">
+  <title>PulseQ | Skip the Line</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo-wrap">
+      <img src="logo.png" alt="PulseQ" class="logo-img">
+      <span class="logo-text">PulseQ</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="solution.html">Our Solution</a>
+      <a href="hospitals.html">For Hospitals</a>
+      <a href="partners.html">Partners</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html#demo" class="btn btn-primary">Book a Demo</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Skip the Line</h1>
+      <p class="hero-sub">Eliminate waiting rooms with AI. Real-time tracking, 99% accurate wait predictions.</p>
+      <a href="contact.html#demo" class="btn btn-primary btn-lg">Book a Demo</a>
+      <div class="hero-demo">
+        <div class="queue-demo">
+          <div class="queue-label">Live queue demo</div>
+          <div class="queue-counter"><span id="q-num">12</span> ahead of you</div>
+          <div class="queue-bar"><span class="queue-progress" id="q-progress"></span></div>
+          <div class="queue-eta">Est. wait: <strong id="q-eta">~18 min</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-solution animate-on-scroll">
+      <h2>The Problem vs The Solution</h2>
+      <div class="ps-grid">
+        <div class="ps-card problem">
+          <h3>Without PulseQ</h3>
+          <ul>
+            <li>Chaotic waiting rooms</li>
+            <li>Unknown wait times</li>
+            <li>No remote check-in</li>
+            <li>Patient anxiety</li>
+          </ul>
+        </div>
+        <div class="ps-card solution">
+          <h3>With PulseQ</h3>
+          <ul>
+            <li>Orderly, managed lobby</li>
+            <li>Real-time queue tracking</li>
+            <li>Remote check-in</li>
+            <li>99% accurate wait prediction</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="features animate-on-scroll">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="feature-icon">📊</span>
+          <h3>Real-time Queue Tracking</h3>
+          <p>Patients and staff see live queue position and movement.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🤖</span>
+          <h3>AI-Powered Wait Prediction</h3>
+          <p>99% accuracy. We analyze doctor speed, procedure type, and time of day.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">📱</span>
+          <h3>Remote Check-in</h3>
+          <p>Check in from home. Arrive when it's your turn.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar animate-on-scroll">
+      <h3>Our Partners</h3>
+      <div class="trust-logos">
+        <span class="t-logo">BIC Islamabad</span>
+        <span class="t-logo">SSBC</span>
+        <span class="t-logo">GDG</span>
+        <span class="t-logo">OPAL Technologies</span>
+      </div>
+    </section>
+
+    <section class="cta animate-on-scroll">
+      <h2>Ready to transform your OPD?</h2>
+      <a href="contact.html#demo" class="btn btn-primary btn-lg">Book a Demo</a>
+    </section>
+  </main>
+
+  <section class="newsletter">
+    <h3>Stay updated</h3>
+    <p>Get news and updates on PulseQ—queue management, pilots, and tips for hospitals.</p>
+    <form class="newsletter-form" action="#" method="post" data-pulseq-form data-newsletter>
+      <input type="hidden" name="_subject" value="PulseQ Newsletter signup">
+      <input type="email" name="email" required placeholder="Your email" aria-label="Email">
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="solution.html">Our Solution</a>
+        <a href="hospitals.html">For Hospitals</a>
+        <a href="partners.html">Partners</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <p class="copy">&copy; PulseQ. Skip the Line.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/923268666776" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Chat on WhatsApp +92 326 8666776"><span class="wa-label">Chat</span>WhatsApp</a>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

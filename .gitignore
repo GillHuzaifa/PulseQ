@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+.vscode/
+
+# Optional: keep config local (uncomment if you don't want to commit Formspree URL)
+# config.js
